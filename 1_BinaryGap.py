@@ -8,4 +8,5 @@ def solution(N):
 	zeros.sort(key=len, reverse=True)
 	return len(zeros[0])
 
+# test
 print(solution(51712))
