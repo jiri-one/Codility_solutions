@@ -9,7 +9,7 @@ def solution(A, K):
 			#else:
 				#moved_dict_A[index] = dict_A[index+1]
 		
-		# if you want move to the left
+		# if you want move to the right
 		for index, value in dict_A.items():
 			if index == 0:
 				moved_dict_A[0]	= dict_A[len(dict_A)-1]	
